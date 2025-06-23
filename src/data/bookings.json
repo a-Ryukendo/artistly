@@ -1,0 +1,18 @@
+[
+  {
+    "id": "b1",
+    "artistId": "1",
+    "eventPlanner": "Sunita Rao",
+    "eventDate": "2024-07-15",
+    "status": "Pending",
+    "message": "Looking to book for a wedding sangeet night in Mumbai."
+  },
+  {
+    "id": "b2",
+    "artistId": "2",
+    "eventPlanner": "Vikram Patel",
+    "eventDate": "2024-08-05",
+    "status": "Confirmed",
+    "message": "Corporate event, 200 guests, need a 30-min set."
+  }
+] 
