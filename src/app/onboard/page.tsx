@@ -23,8 +23,8 @@ const schema = yup.object().shape({
   languages: yup.array().min(1, "Select at least one language").required(),
   rate: yup.string().required("Fee range is required"),
   location: yup.string().required("Location is required"),
-  image: yup.string().url("Must be a valid URL").notRequired(),
-  availability: yup.string().notRequired(),
+  image: yup.string().url("Must be a valid URL").transform(value => value === '' ? undefined : value).notRequired(),
+  availability: yup.string().transform(value => value === '' ? undefined : value).notRequired(),
 });
 
 // Define the TypeScript type for our form data
